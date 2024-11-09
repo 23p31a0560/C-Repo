@@ -3,8 +3,7 @@ int main()
 {
     int x,y,z;
     scanf("%d%d%d",&x,&y,&z);
-    int man=z-y;
-    int cost=man/x;
-    printf("%d",cost);
-
+    int s=z-y;
+    int res=s/x;
+    printf("%d",res);
 }
